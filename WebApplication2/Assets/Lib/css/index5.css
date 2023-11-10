@@ -1,0 +1,29 @@
+.container {
+    width: 1000px;
+    height:921px;
+    margin: 0 auto;
+}
+ntainer {
+    background-image: url(../Assets/Images/888.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(../Assets/Images/999.png);
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+h3{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+ul li {
+    list-style: none;
+}
+.body {
+    background-color: red;
+    background-image: linear-gradient(#e66465, #9198e5);
+}

@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1887px;
+  margin: auto;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: left;
+  width: 1887px;
+}
+
+.h1 {
+  float: right;
+  width: 200px;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 11px;
+}
+
+.topnav {
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: gray;
+  float: left;
+  width: 1887px;
+  background-image: linear-gradient(gray, white);
+}
+.login{
+  width: 200px;
+  float: right;
+}
+.login a{
+  font-size: 10px;
+}
+
+.nav {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 50px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  box-shadow: 0 0 40px #9198e5;
+  transform: scale(1.05)
+}
+
+
+
+#t{
+  width: 9999px;
+  height: 9999px;
+  animation: 10s abc infinite;
+}
+@keyframes abc{
+  0%{}
+  25%{transform:translateX(0px)}
+  30%{transform: translateX(-1887px)}
+  50%{transform:translateX(-1887px)}
+  55%{transform:translateX(-3774px)}
+  75%{transform:translateX(-3774px)}
+  80%{transform:translateX(-5661px)}
+  100%{transform:translateX(-5661px)}
+
+}
+#t img{
+  float: left;
+}
+.mid{
+  width: 1887px;
+  height: 830px;
+  overflow: hidden;
+}
+
+
+.bottom {
+  background-color: gray;
+  text-align: center;
+  padding: 1px;
+}
